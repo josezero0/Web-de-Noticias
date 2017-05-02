@@ -1,0 +1,7 @@
+<!-- Jumbotron -->
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1>TÍTULO</h1>
+        <p>DESCRIPCIÓN</p>
+    </div>
+</div>

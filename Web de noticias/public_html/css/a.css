@@ -7,7 +7,9 @@
         left: 0;
         right: 0;
     }
-    
+    #pMobile{display: none}
+    #pDesktop{width: 330px; vertical-align: top}
+    #pDesktop2{width: 300px}
 }
 
 /* Mobile css */
@@ -19,16 +21,15 @@
         left: 0;
         right: 0
     }
-    #p{position: fixed;bottom: 0;height: 90px;width: 100%}
+    #pMobile{position: fixed;bottom: 0;height: 90px;width: 100%}
+    #pDesktop{display: none}
 }
 
 /* Common css */
-body{
-    background-color: #f1f1f1
-}
-
+body{background-color: #f1f1f1}
 #pag{overflow-y: auto}
-
 #nav-container{width: 100%}
 .affix{top:15px}
 .affix + .container-fluid{padding-top: 72px}
+.width100{width: 100%}
+.imgmid{height: 200px;width: 242px; float: left}

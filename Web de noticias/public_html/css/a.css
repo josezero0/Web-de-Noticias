@@ -1,12 +1,13 @@
 /* Desktop css */
 @media screen and (min-width: 768px){
-.affix{
+    #pag{
+        position: fixed;
         top: 0;
-        padding-top: 15px;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
-    .affix + .container-fluid{
-        padding-top: 72px;
-    }
+    
 }
 
 /* Mobile css */
@@ -19,21 +20,15 @@
         right: 0
     }
     #p{position: fixed;bottom: 0;height: 90px;width: 100%}
-    .affix{
-        top: 0;
-        padding-top: 15px;
-        width: 100%;
-    }
-    .affix + .container-fluid{
-        padding-top: 72px;
-    }
 }
 
 /* Common css */
 body{
     background-color: #f1f1f1
 }
+
 #pag{overflow-y: auto}
-#jumbo{
-    
-}
+
+#nav-container{width: 100%}
+.affix{top:15px}
+.affix + .container-fluid{padding-top: 72px}

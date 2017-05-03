@@ -1,3 +1,12 @@
 $(document).ready(function () {
-    $('#nav-container').attr('data-offset-top',$('#nav-container').offset().top-15);
+    var offset = $('#nav-container').offset().top -15;
+    console.log(offset);
+    $('#pag').scroll(function(){
+        console.log($('#pag').scrollTop());
+        if($('#pag').scrollTop()>=offset){
+            $('#nav-container').addClass('affix');
+        }else{
+            $('#nav-container').removeClass('affix');
+        }
+    });
 });

@@ -8,8 +8,8 @@
         right: 0;
     }
     #pMobile{display: none}
-    #pDesktop{width: 330px; vertical-align: top}
-    #pDesktop2{width: 300px}
+    #pDesktop{width: 330px; margin-right: 0; float: right}
+    #news{width: 430px}
 }
 
 /* Mobile css */

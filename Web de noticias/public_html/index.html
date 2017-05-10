@@ -5,57 +5,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/a.css">
+        <link rel="stylesheet" href="css/index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="js/a.js"></script>
     </head>
     <body>
-        <div id="pag">
+        <!-- Cuerpo de la página -->
+        <div class="body-page">
 
-            <!-- Header -->
-            <div class="jumbotron text-center" id="jumbo">
-                <div class="container">
-                    <h1>Code Bit</h1>
-                    <p>Seguridad Informática, Hacking y Programación</p>
-                </div>
-            </div>
-
-            <div class="container" id="nav-container">
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Code Bit</a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="nav-menu">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                                <li><a href="news.html"><span class="glyphicon glyphicon-send"></span> News</a></li>
-                                <li><a href="contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sing Up</a></li>
-                                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                            </ul>
-                        </div>
+            <!-- Menú -->
+            <nav class="navbar navbar-default" id="nav-menu">
+                <div class="container-fluid">
+                    <!-- Cabecera -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-elements">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand">Code Bit</a>
                     </div>
-                </nav>
-            </div>
-
-            <!-- Publicidad -->
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="p1">
-                        <p>Publicidad</p>
+                    <!-- Elementos -->
+                    <div class="collapse navbar-collapse" id="nav-elements">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                            <li><a href="news.html"><span class="glyphicon glyphicon-send"></span> News</a></li>
+                            <li><a href="contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sing Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
                     </div>
-                    <br>
                 </div>
-            </div>
+            </nav>
 
             <!-- Carousel -->
             <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -66,7 +49,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="img/n1-big.jpg" alt="img1" class="imgcarousel">
+                        <img src="img/n1-big.jpg" alt="img1" class="img-responsive">
                         <div class="carousel-caption">
                             <h1>Keysniffer</h1>
                             <p>Keylogger para linux</p>
@@ -104,8 +87,8 @@
             </div>
 
             <!-- Noticias -->
-            <div class="jumbotron white">
-                <div class="container hcenter">
+            <div class="jumbotron text-center">
+                <div class="container">
                     <h1><span class="glyphicon glyphicon-send"></span> Noticias</h1>
                     <p>Enterate de las últimas novedades en seguridad informática, hacking, y mucho más en nuestra sección de noticias</p>
                     <br>
@@ -114,8 +97,8 @@
             </div>
 
             <!-- Contacto -->
-            <div class="jumbotron white">
-                <div class="container hcenter">
+            <div class="jumbotron text-center">
+                <div class="container">
                     <h1><span class="glyphicon glyphicon-earphone"></span> Contacto</h1>
                     <p>Ponte en contacto con nosotros mediante nuestro formulario de atención al cliente</p>
                     <br>
@@ -123,9 +106,9 @@
                 </div>
             </div>
 
-            <!-- Sing up / Login -->
-            <div class="jumbotron white">
-                <div class="container hcenter">
+            <!-- Sing up/Login -->
+            <div class="jumbotron text-center">
+                <div class="container">
                     <h1><span class="glyphicon glyphicon-user"></span> Sing Up o <span class="glyphicon glyphicon-log-in"></span> Login</h1>
                     <p>Registrate en nuestra página o accede con tu cuenta</p>
                     <br>
@@ -133,28 +116,16 @@
                 </div>
             </div>
 
-            <!-- Publicidad -->
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="p1">
-                        <p>Publicidad</p>
-                    </div>
-                    <br>
-                </div>
-            </div>
-
             <!-- Footer -->
-            <div class="footer">
-                <div class="container hcenter">
-                    <p>Developed by Jose David Pérez Cañellas</p>
-                </div>
+            <div class="panel-footer text-center">
+                <p>Developed by Jose David Pérez Cañellas</p>
             </div>
 
         </div>
 
+        <!-- Publicidad móvil -->
         <div class="p-mobile">
             <p>Publicidad</p>
         </div>
-
     </body>
 </html>

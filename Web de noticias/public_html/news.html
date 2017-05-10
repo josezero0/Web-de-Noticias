@@ -5,98 +5,85 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/a.css">
+        <link rel="stylesheet" href="css/index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="js/a.js"></script>
     </head>
     <body>
-        <div id="pag">
-            <!-- Jumbotron -->
-            <div class="jumbotron text-center" id="jumbo">
-                <div class="container">
-                    <h1>Code Bit</h1>
-                    <p>Seguridad Informática, Hacking y Programación</p>
-                </div>
-            </div>
-            <div class="container" id="nav-container">
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Code Bit</a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="nav-menu">
-                            <ul class="nav navbar-nav">
-                                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                                <li class="active"><a href="news.html"><span class="glyphicon glyphicon-send"></span> News</a></li>
-                                <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sing Up</a></li>
-                                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <div class="container-fluid">
+        <!-- Cuerpo de la página -->
+        <div class="body-page">
+
+            <!-- Menú -->
+            <nav class="navbar navbar-default" id="nav-menu">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-8 col-lg-8">
-                            <div class="container-fluid thumbnail">
-                                <div class="imgmid">
-                                    <img src="img/min.jpg" alt="img 1">
-                                </div>
-                                <div class="caption">
-                                    <h3>Titulo 1<br><small>Fecha y Hora</small></h3>
-                                    <p>Descripción breve de aproximadamente unas 100 palabras</p>
-                                </div>
-                            </div>
-                            <div class="container-fluid thumbnail">
-                                <div class="imgmid">
-                                    <img src="img/min.jpg" alt="img 1">
-                                </div>
-                                <div class="caption">
-                                    <h3>Titulo 1<br><small>Fecha y Hora</small></h3>
-                                    <p>Descripción breve</p>
-                                </div>
-                            </div>
-                            <div class="container-fluid thumbnail">
-                                <div class="imgmid">
-                                    <img src="img/min.jpg" alt="img 1">
-                                </div>
-                                <div class="caption">
-                                    <h3>Titulo 1<br><small>Fecha y Hora</small></h3>
-                                    <p>Descripción breve</p>
-                                </div>
-                            </div>
+                    <!-- Cabecera -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-elements">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand">Code Bit</a>
+                    </div>
+                    <!-- Elementos -->
+                    <div class="collapse navbar-collapse" id="nav-elements">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                            <li class="active"><a href="news.html"><span class="glyphicon glyphicon-send"></span> News</a></li>
+                            <li><a href="contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sing Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Bloque de contenido -->
+            <div class="container-fluid display-table">
+                <!-- Contenedor responsive -->
+                <div class="container-fluid">
+                    <div class="container-fluid thumbnail">
+                        <div class="imgprev">
+                            <img src="img/min.jpg" alt="miniatura">
                         </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4">
-                            <div class="container" id="pDesktop">
-                                <p>Publicidad...</p>
-                                <p>Publicidad...</p>
-                                <p>Publicidad...</p>
-                                <p>Publicidad...</p>
-                                <p>Publicidad...</p>
-                                <p>Publicidad...</p>
-                                <p>Publicidad...</p>
-                                <p>Publicidad...</p>
-                                <p>Publicidad...</p>
-                            </div>
+                        <div class="caption">
+                            <h3>KeySniffer, keylogger para linux<br><small>Fecha y Hora</small></h3>
+                            <p>Descripción</p>
                         </div>
                     </div>
+                    <div class="container-fluid thumbnail">
+                        <div class="imgprev">
+                            <img src="img/min.jpg" alt="miniatura">
+                        </div>
+                        <div class="caption">
+                            <h3>Titulo<br><small>Fecha y Hora</small></h3>
+                            <p>Descripción</p>
+                        </div>
+                    </div>
+                    <div class="container-fluid thumbnail">
+                        <div class="imgprev">
+                            <img src="img/min.jpg" alt="miniatura">
+                        </div>
+                        <div class="caption">
+                            <h3>Titulo<br><small>Fecha y Hora</small></h3>
+                            <p>Descripción</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Publicidad 300px derecha -->
+                <div class="container p-desktop-1">
+                    <p>Publicidad</p>
                 </div>
             </div>
 
         </div>
 
         <!-- Publicidad móvil -->
-        <div class="container" id="pMobile"><p>Publicidad...</p></div>
-
+        <div class="p-mobile">
+            <p>Publicidad</p>
+        </div>
     </body>
 </html>

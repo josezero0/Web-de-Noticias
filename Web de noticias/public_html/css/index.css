@@ -1,14 +1,16 @@
 @media screen and (max-width: 767px){
     .p-mobile{position: fixed;bottom: 0;height: 90px;width: 100%}
+    .p-desktop-1{display: none !important}
     .body-page{position: fixed;top: 0;bottom: 90px;left: 0;right: 0}
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px){
     .p-mobile{display: none}
+    .p-desktop-1{width: 330px}
     .body-page{position: fixed;top: 0;bottom: 0; left: 0;right: 0}
 }
 
-@media screen and (min-width: 992px){
-    .p-mobile{display: none}
-    .body-page{position: fixed;top: 0;bottom: 0; left: 0;right: 0}
-}
+.body-page{overflow-x: auto}
+.display-table{display: table; width: 100%}
+.display-table > div{display: table-cell}
+.imgprev{height: 200px;width: 242px;float: left;}

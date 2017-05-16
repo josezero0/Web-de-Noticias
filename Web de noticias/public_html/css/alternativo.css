@@ -1,0 +1,33 @@
+/* Mobile */
+@media screen and (max-width: 767px){
+    .p-mobile{position: fixed; bottom: 0; height: 90px; width: 100%}
+    .p-desktop{display: none !important}
+    .body{position: fixed; top: 0; bottom: 90px; width: 100%; overflow-x: auto; padding-left: 0; padding-right: 0}
+    .affix{top: 0;left: 0; right: 0; z-index: 999 !important}
+}
+
+/* Desktop */
+@media screen and (min-width: 768px){
+    .p-mobile{display: none}
+    .p-desktop{width: 330px}
+    .body{position: fixed; top: 0; bottom: 0; width: 100%; overflow-x: auto}
+    .affix{top: 0; left: 15px; right: 32px; z-index: 999 !important}
+}
+
+/* Remove margin bottom */
+.rm-margin-bot{margin-bottom: 0px !important}
+
+/* Affix */
+.affix + .carousel, .affix + .container-fluid{margin-top: 80px !important}
+
+/* Ajuste responsive de la publicidad de escritorio */
+.display-table{display: table; width: 100%}
+.display-table > div{display: table-cell}
+
+/* Imagen de previsualización de noticia */
+.imgprev{height: 200px;width: 242px;float: left;}
+
+/* Ajustes del carousel */
+.carousel-inner > .item > img{margin: 0 auto}
+.carousel-inner > .item{background-color: #333}
+.carousel{margin-bottom: 30px !important; margin-top: 30px !important}

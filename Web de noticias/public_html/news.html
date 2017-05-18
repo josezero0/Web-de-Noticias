@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
         <link rel="stylesheet" href="css/alternativo.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -37,8 +38,8 @@
                             <li><a href="contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sing Up</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li><a href="singup.html"><span class="glyphicon glyphicon-user"></span> Sing Up</a></li>
+                            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,40 +48,55 @@
             <!-- Bloque de contenido -->
             <div class="container-fluid display-table">
                 <!-- Contenedor responsive -->
-                <div class="container-fluid" id="new-container">
-                    <div class="container-fluid text-center">
+                <div class="container-fluid">
+                    <div id="new-container">
+                        <div class="container-fluid thumbnail text-justify">
+                            <div class="imgprev">
+                                <img src="img/n1-mid.jpg" alt="miniatura" class="img-responsive">
+                            </div>
+                            <div class="caption">
+                                <h3>KeySniffer, keylogger para linux<br><small>25 MAYO, 2017, 9:17</small></h3>
+                                <p>KeySniffer es un keylogger que funciona perfectamente en linux. Fue escrito originalmente para teclados US.</p>
+                                <p>Captura todas las teclas pulsadas por el usuario de la PC, se pueden ver todos los keycodes en <mark>/usr/include/linux/input-event-codes.h</mark></p>
+                                <p>Los logs se almacenan en debugfs y solo el root o sudoers pueden ver el log. El módulo permanece camuflajeado en algún módulo del kernel para evitar ser identificado...</p>
+                                <div class="text-center">
+                                    <a class="btn btn-primary">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid thumbnail text-justify">
+                            <div class="imgprev">
+                                <img src="img/n2-mid.jpg" alt="miniatura" class="img-responsive">
+                            </div>
+                            <div class="caption">
+                                <h3>Kali Linux versión 2017.1<br><small>23 MAYO 2017, 14:44</small></h3>
+                                <p>Ya está disponible para su descarga la última versión Kali Linux 2017.1. Kali Linux es famosa y utilizada para auditorias informáticas de seguridad. Vamos a tener un kernel actualizado, mayor compatibilidad de hardware, así como las últimas versiones de todas las herramientas que trae.</p>
+                                <p><b>Soporte para el chipset RTL8812AU</b></p>
+                                <p>Después de la petición de varios usuarios, decidieron implementar el soporte para el chipset RTL8812AU ya que estos controladores son parte del kernel estándar de Linux y se han modificado para permitir inyección de paquetes...</p>
+                                <div class="text-center">
+                                    <a class="btn btn-primary">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid thumbnail text-justify">
+                            <div class="imgprev">
+                                <img src="img/n3-mid.jpg" alt="miniatura" class="img-responsive">
+                            </div>
+                            <div class="caption">
+                                <h3>0 Day, reset de contraseñas en wordpress<br><small>21 MAYO 2017, 23:59</small></h3>
+                                <p>Recientemente, el 3 de mayo, se publicó una nueva vulnerabilidad (CVE-2017-8295) que afecta a todas las versiones de WordPress, incluyendo la última version 4.7.4, que puede permitir a un atacante resetear remotamente la contraseña y acceder con cualquier usuario.</p>
+                                <p>La vulnerabilidad está en la página de solicutud de restablecimiento de contraseña, concretamente en la posibilidad de modificar el contenido de la variable SERVER_NAME en la función wp-includes/pluggable.php...</p>
+                                <div class="text-center">
+                                    <a class="btn btn-primary">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
                         <button type="button" class="btn btn-primary" id="load">Load More</button>
+                        <br>
+                        <br>
                     </div>
-                    <br>
-                    <div class="container-fluid thumbnail">
-                        <div class="imgprev">
-                            <img src="img/min.jpg" alt="miniatura">
-                        </div>
-                        <div class="caption">
-                            <h3>KeySniffer<br><small>Fecha y Hora</small></h3>
-                            <p>Descripción</p>
-                        </div>
-                    </div>
-                    <div class="container-fluid thumbnail">
-                        <div class="imgprev">
-                            <img src="img/min.jpg" alt="miniatura">
-                        </div>
-                        <div class="caption">
-                            <h3>Titulo<br><small>Fecha y Hora</small></h3>
-                            <p>Descripción</p>
-                        </div>
-                    </div>
-                    <div class="container-fluid thumbnail">
-                        <div class="imgprev">
-                            <img src="img/min.jpg" alt="miniatura">
-                        </div>
-                        <div class="caption">
-                            <h3>Titulo<br><small>Fecha y Hora</small></h3>
-                            <p>Descripción</p>
-                        </div>
-                    </div>
-                    
-
                 </div>
 
                 <!-- Publicidad 300px derecha -->

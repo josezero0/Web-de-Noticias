@@ -1,16 +1,9 @@
 [
     {
-        "title": "Phreaking: La historia del hacking telefónico",
-        "imgbig": "img/imgbig.jpg",
-        "imgmid": "img/imgmid.jpg",
-        "description": "sdalfksjadjfñlkfhsdañljkfhasdñlfkjhn",
-        "datetime": "10 MAYO, 2017, 13:43"
-    },
-    {
         "title": "Programador de Nissan copia código de Stack Overflow",
-        "imgbig": "img/imgbig.jpg",
-        "imgmid": "img/imgmid.jpg",
-        "description": "asdfkjadsñolfhfaewof",
+        "imgbig": "img/x4-big.jpg",
+        "imgmid": "img/x4-mid.jpg",
+        "description": "<p>Copiar y pegar código de internet es uno de los mayores secretos abiertos en la programación. Y confía en mí, todos lo hemos hecho alguna vez, aunque sea parte pequeña de código. Eso es porqué hay sitios de preguntas y respuestas como <b>StackOverflow.com</b>, donde cualquier desarrollador de aplicaciones puede publicar una pregunta relacionada con la programación y obtener una respuesta de un compañero programador.</p><p>Cualquier persona que puede o no haber copiado el ensayo de su mejor amigo en inglés en la escuela primaria...</p>",
         "datetime": "5 MAYO, 2017, 21:19"
     }
 ]

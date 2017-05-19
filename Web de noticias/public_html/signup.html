@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login</title>
+        <title>Sing Up</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -34,8 +34,8 @@
                             <li><a href="news.html"><span class="glyphicon glyphicon-send"></span> News</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                            <li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li class="active"><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -43,20 +43,33 @@
 
             <div class="container-fluid">
                 <form class="form-signin">
-                    <h2 class="form-signin-header">Please login</h2>
+                    <h2 class="form-signin-header">Please sign up</h2>
+                    
+                    <label for="inputName" class="sr-only">Name</label>
+                    <input type="text" id="inputName" class="form-control" placeholder="Name" required>
+                    <br>
+                    <label for="inputSurename" class="sr-only">Surename</label>
+                    <input type="text" id="inputSurename" class="form-control" placeholder="Surename" required>
+                    <br>
+                    
                     <label for="inputEmail" class="sr-only">Email address</label>
                     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    <br>
                     <label for="inputPassword" class="sr-only">Password</label>
                     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <br>
+                    <label for="inputPassword2" class="sr-only">Confirm password</label>
+                    <input type="password" id="inputPassword2" class="form-control" placeholder="Confirm password" required>
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox" value="remember-me">Remember me
+                            <input type="checkbox" value="remember-me" required>Aceptas registrarte en la página
                         </label>
                     </div>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
                     <br>
-                    <p class="text-center">o si no tienes una cuenta:</p>
-                    <a class="btn btn-lg btn-primary btn-block" href="signup.html">Sing Up</a>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+                    <br>
+                    <p class="text-center">o si tienes una cuenta:</p>
+                    <a class="btn btn-lg btn-primary btn-block" href="signup.html">Login</a>
                 </form>
             </div>
         </div>

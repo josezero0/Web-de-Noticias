@@ -1,0 +1,32 @@
+/* Extra small devices (phones, less that 768px), no media query */
+body{background-color: black}
+
+#p-desktop{display: none}
+#p-mobile{position: fixed;bottom: 0;height: 90px;width: 100%}
+#body{position: fixed;top: 0;bottom: 90px;width: 100%;overflow-x: auto}
+#header{margin-bottom: 20px;color: white;text-shadow: 0px 5px 30px rgba(0, 255, 0, 1), 3px 0 0 #000, 0 2px 0 #000}
+
+.background-1{background: url("../img/background-1.jpg") !important;background-size: cover !important}
+.display-table{display: table; width: 100%}
+.display-table > div{display: table-cell}
+.new-preview{display: table; width: 100%; padding: 15px; box-shadow: 0px 0px 5px 5px rgba(0,255,0,0.5)}
+.new-preview > .new-img, .new-preview > .new-info{display: table-row}
+.new-img > img{margin: 0 auto}
+.shadow-green-dark{box-shadow: 0px 0px 5px 5px rgba(0,120,0,1)}
+
+/* Small devices  (tablets, 768px and up) */
+@media screen and (min-width: 768px){
+    .new-preview > .new-img, .new-preview > .new-info{display: table-cell}
+    .new-img{width: 300px; padding-right: 15px; vertical-align: top}
+    .new-img > img:hover{opacity: 0.75; transition: 1s ease}
+    .new-info{width: 100%; float: right}
+    .new-info > h3{margin-top: 0}
+}
+
+/* Medium devices (desktop, 992px and up) */
+@media screen and (min-width: 992px){
+    #p-desktop{display: table-cell; width: 300px !important; right: 0; vertical-align: top}
+    #p-mobile{display: none}
+    #body{position: fixed;top: 0;left: 0;right: 0;bottom: 0;overflow-x: auto}
+    #new-container{padding-right: 15px}
+}

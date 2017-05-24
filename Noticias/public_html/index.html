@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Noticias</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/news.js"></script>
+    </head>
+    <body>
+        <div id="body">
+
+            <!-- Header -->
+            <div class="jumbotron background-1" id="header">
+                <div class="container text-center">
+                    <h1><b>Code Bit</b></h1>
+                    <p><b>Noticias del mundo virtual: seguridad, hacking y anonimato</b></p>
+                </div>
+            </div>
+
+            <div class="container-fluid display-table">
+                <div id="new-container">
+                    <div id="news">
+                        <div class="thumbnail new-preview">
+                            <div class="new-img">
+                                <img src="img/n1-mid.jpg" alt="miniatura" class="img-responsive shadow-green-dark">
+                            </div>
+                            <div class="new-info">
+                                <h3>KeySniffer, keylogger para linux<br><small>25 MAYO, 2017, 9:17</small></h3>
+                                <p>KeySniffer es un keylogger que funciona perfectamente en linux. Fue escrito originalmente para teclados US.</p>
+                                <p>Captura todas las teclas pulsadas por el usuario de la PC, se pueden ver todos los keycodes en <mark>/usr/include/linux/input-event-codes.h</mark></p>
+                                <p>Los logs se almacenan en debugfs y solo el root o sudoers pueden ver el log. El módulo permanece camuflajeado en algún módulo del kernel para evitar ser identificado...</p>
+                                <div class="text-center">
+                                    <a class="btn btn-success" href="news1.html">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumbnail new-preview">
+                            <div class="new-img">
+                                <img src="img/n2-mid.jpg" alt="miniatura" class="img-responsive shadow-green-dark">
+                            </div>
+                            <div class="new-info">
+                                <h3>Kali Linux versión 2017.1<br><small>23 MAYO 2017, 14:44</small></h3>
+                                <p>Ya está disponible para su descarga la última versión Kali Linux 2017.1. Kali Linux es famosa y utilizada para auditorias informáticas de seguridad. Vamos a tener un kernel actualizado, mayor compatibilidad de hardware, así como las últimas versiones de todas las herramientas que trae.</p>
+                                <p><b>Soporte para el chipset RTL8812AU</b></p>
+                                <p>Después de la petición de varios usuarios, decidieron implementar el soporte para el chipset RTL8812AU ya que estos controladores son parte del kernel estándar de Linux y se han modificado para permitir inyección de paquetes...</p>
+                                <div class="text-center">
+                                    <button class="btn btn-success">Leer más</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumbnail new-preview">
+                            <div class="new-img">
+                                <img src="img/n3-mid.jpg" alt="miniatura" class="img-responsive shadow-green-dark">
+                            </div>
+                            <div class="new-info">
+                                <h3>0 Day, reset de contraseñas en wordpress<br><small>21 MAYO 2017, 23:59</small></h3>
+                                <p>Recientemente, el 3 de mayo, se publicó una nueva vulnerabilidad (CVE-2017-8295) que afecta a todas las versiones de WordPress, incluyendo la última version 4.7.4, que puede permitir a un atacante resetear remotamente la contraseña y acceder con cualquier usuario.</p>
+                                <p>La vulnerabilidad está en la página de solicutud de restablecimiento de contraseña, concretamente en la posibilidad de modificar el contenido de la variable SERVER_NAME en la función wp-includes/pluggable.php...</p>
+                                <div class="text-center">
+                                    <button class="btn btn-success">Leer más</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-success" id="load">Más noticias</button>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div id="p-desktop">
+                    <p>Publicidad</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="p-mobile">
+            <p>Publicidad</p>
+        </div>
+    </body>
+</html>

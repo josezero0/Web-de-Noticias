@@ -7,6 +7,8 @@ header{margin-bottom: 20px;color: white !important;text-shadow: 0px 5px 30px rgb
 #content{display: table; width: 100%}
 #p-mobile{position: fixed;bottom: 0;height: 90px;width: 100%}
 
+#no-more-news{display: none; position: fixed; top: 10%; left: 5%; right: 5%}
+
 .blockquote-reverse{font-family: 'Roboto Mono', monospace; color: green; border-right-color: green}
 
 .jumbotron{margin-bottom: 0px}
@@ -17,6 +19,8 @@ header{margin-bottom: 20px;color: white !important;text-shadow: 0px 5px 30px rgb
 .green{color: green}
 .white{color: white}
 
+.border-img{border-radius: 5px 5px 5px 5px}
+
 .affix{top: 0; left: 0; right: 0; z-index: 5 !important}
 .affix + .container-fluid{margin-top: 71px}
 
@@ -24,6 +28,7 @@ header{margin-bottom: 20px;color: white !important;text-shadow: 0px 5px 30px rgb
 .carousel-inner > .item > img{margin: 0 auto}
 
 .thumbnail{display: table; padding: 15px; box-shadow: 0px 0px 5px 5px rgba(0,255,0,0.5); width: 100%}
+.new-img > img{border-radius: 5px 5px 5px 5px; margin: 0 auto}
 .new-img > a > img{border-radius: 5px 5px 5px 5px !important;}
 .new-info > h3 > a{color: black}
 .new-info > h3 > a:hover{color: green}
@@ -33,7 +38,7 @@ header{margin-bottom: 20px;color: white !important;text-shadow: 0px 5px 30px rgb
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px){
-    .navbar{margin-left: 15px; margin-right: 15px; margin-top: 15px}
+    .navbar{margin-left: 15px; margin-right: 15px; margin-top: 0px}
     .affix{margin-left: 0px; margin-right: 17px; margin-top: 0px}
     .new-img, .new-info{display: table-cell}
     .new-img{width: 300px; padding-right: 15px; vertical-align: top}

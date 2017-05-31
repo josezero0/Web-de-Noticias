@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Nuevo Intel Core i9",
+        "imgbig": "img/x1-big.jpg",
+        "imgmid": "img/x1-mid.jpg",
+        "description": "<p>Hasta ahora Intel había mantenido tres niveles en sus procesadores Core, pero la introducción de los AMD Ryzen y su apuesta por más núcleos ha hecho que en Intel estén preparando una nueva alternativa.</p><p>Se trata de los Intel Core i9, que aparecerán en las próximas semanas en dos versiones con 10 y 12 núcleos de proceso y que también llegarán a contar con hasta 44 pistas PCIe para crear PCs de escritorio con unas prestaciones realmente fantásticas...</p>",
+        "datetime": "14 MAYO, 2017, 13:43"
+    },
+    {
+        "title": "Ciberataque a grandes compañías [Mayo 2017]",
+        "imgbig": "img/x2-big.jpg",
+        "imgmid": "img/x2-mid.jpg",
+        "description": "<p>La infección por ransomware en Telefónica y en otras grandes empresas a nivel mundial que ha hehco que todos los medios se agiten, ya que han surgido numerosos mensajes en las redes sociales con imágenes del ransom y correos de distintos departamentos rogando a los usuarios que apaguen inmediatamente sus equipos (incluso audios). La empresa de telefonía lanzó un comunicado al respecto:</p><p><b><i>Madrid, 12 de mayo de 2017.- A media mañana del día de hoy se ha detectado...</i></b></p>",
+        "datetime": "12 MAYO, 2017, 21:19"
+    },
+    {
+        "title": "Phreaking: La historia del hacking telefónico",
+        "imgbig": "img/x3-big.jpg",
+        "imgmid": "img/x3-mid.jpg",
+        "description": "<p>A finales de la década de 1950, en EE.UU. surgió un grupo de entusiastas que querían exprimir al máximo las líneas telefónicas. Para ello, utilizaron una especie de 'hacking telefónico' conocido por phreaking.</p><p>Por desgracia, las contribuciones de estos pioneros <b>no se contemplan de la misma forma</b> que las de personajes relevantes de la cultura hacker como 'The Mentor' o 'Paul Baran'. Y sin embargo, phreaks y hackers forman parte de la misma cultura. Es imposible entender el movimiento hacker sin el phreaking...</p>",
+        "datetime": "10 MAYO, 2017, 13:43"
+    }
+]

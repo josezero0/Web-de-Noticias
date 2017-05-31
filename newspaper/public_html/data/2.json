@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Programador de Nissan copia código de Stack Overflow",
+        "imgbig": "img/x4-big.jpg",
+        "imgmid": "img/x4-mid.jpg",
+        "description": "<p>Copiar y pegar código de internet es uno de los mayores secretos abiertos en la programación. Y confía en mí, todos lo hemos hecho alguna vez, aunque sea parte pequeña de código. Eso es porqué hay sitios de preguntas y respuestas como <b>StackOverflow.com</b>, donde cualquier desarrollador de aplicaciones puede publicar una pregunta relacionada con la programación y obtener una respuesta de un compañero programador.</p><p>Cualquier persona que puede o no haber copiado el ensayo de su mejor amigo en inglés en la escuela primaria...</p>",
+        "datetime": "5 MAYO, 2017, 21:19"
+    },
+    {
+        "title": "WikiLeaks desvela más malware de la CIA: AfterMidnight y Assassin",
+        "imgbig": "img/x5-big.jpg",
+        "imgmid": "img/x5-mid.jpg",
+        "description": "<p>El portal WikiLeaks ha publicado este viernes otra tanda de documentos confidenciales de la CIA, revelando la infomación sobre dos 'software' maliciosos conocidos como 'AfterMidnight' y 'Assassin'. Esta publicación forma parte de la filtración a gran escala de archivos sobre armas cibernéticas de la CIA denominadas <b>'Vault 7'</b>.</p><p>WikiLeaks publica 'AfterMidnight' y 'Assassin', dos frameworks de malware de la CIA para la plataforma Microsoft Windows.</p><p>'AfterMidnight' permite a los operadores cargar y ejecutar cargas útiless de malware en un equipo destino de forma dinámica...</p>",
+        "datetime": "4 MAYO, 2017, 16:27"
+    },
+    {
+        "title": "HackerOne niega el acceso de FlexiSpy a su programa de recompensas",
+        "imgbig": "img/x6-big.jpg",
+        "imgmid": "img/x6-mid.jpg",
+        "description": "<p>Después del reciente hackeo y filtración de la empresa de spyware llamada FlexiSpy, ellos mismos anunciaron vía Twitter su intención de unirse al Bug Bounty de HackerOne. Pero finalmente HackerOne ha denegado la petición argumentando su opinión en aspectos principalmente éticos. La plataforma dice que simplemente no está bien alojar un sistema que espían a niños y esposos.</p><p>Después de considerar los argumentos positivos y los negativos han decidido no incluír a la compañía en su programa de recompensas...</p>",
+        "datetime": "3 MAYO, 2017, 17:42"
+    }
+]

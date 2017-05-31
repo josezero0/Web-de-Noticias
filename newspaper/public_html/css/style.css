@@ -1,0 +1,59 @@
+/* Extra small devices (phones, less than 768px), no media query, default css */
+aside{display: none}
+body, .panel{background-color: #111}
+header{margin-bottom: 20px;color: white !important;text-shadow: 0px 5px 30px rgba(0, 255, 0, 1), 3px 0 0 #000, 0 2px 0 #000;font-family: 'Roboto Mono', monospace;background: url("../img/background-1.jpg") !important;background-size: cover !important}
+
+#body{position: fixed;top: 0;bottom: 90px;width: 100%;overflow-x: auto}
+#content{display: table; width: 100%}
+#p-mobile{position: fixed;bottom: 0;height: 90px;width: 100%}
+
+.blockquote-reverse{font-family: 'Roboto Mono', monospace; color: green; border-right-color: green}
+
+.jumbotron{margin-bottom: 0px}
+.navbar{margin-left: 0px; margin-right: 0px; margin-top: 0px}
+
+.roboto-mono{font-family: 'Roboto Mono', monospace;}
+
+.green{color: green}
+.white{color: white}
+
+.affix{top: 0; left: 0; right: 0; z-index: 5 !important}
+.affix + .container-fluid{margin-top: 71px}
+
+.carousel-inner > .item{background-color: #111}
+.carousel-inner > .item > img{margin: 0 auto}
+
+.thumbnail{display: table; padding: 15px; box-shadow: 0px 0px 5px 5px rgba(0,255,0,0.5); width: 100%}
+.new-img > a > img{border-radius: 5px 5px 5px 5px !important;}
+.new-info > h3 > a{color: black}
+.new-info > h3 > a:hover{color: green}
+
+.shadow-green-dark{box-shadow: 0px 0px 5px 5px rgba(0,120,0,1)}
+.shadow-text{text-shadow: 0px 5px 30px rgba(0, 255, 0, 1), 3px 0 0 #000, 0 2px 0 #000;}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px){
+    .navbar{margin-left: 15px; margin-right: 15px; margin-top: 15px}
+    .affix{margin-left: 0px; margin-right: 17px; margin-top: 0px}
+    .new-img, .new-info{display: table-cell}
+    .new-img{width: 300px; padding-right: 15px; vertical-align: top}
+    .new-info{float: right; width: 100%}
+    .new-info > h3{margin-top: 0}
+}
+
+/* Medium devices (desktop, 992px and up) */
+@media screen and (min-width: 992px){
+    aside{position: relative;display: table-cell; width: 300px !important; right: 0; vertical-align: top}
+    #body{position: fixed;top: 0;left: 0;right: 0;bottom: 0;overflow-x: auto}
+    #p-mobile{display: none}
+    
+    .new-img, .new-info{display: table-row}
+    .new-info > h3{margin-top: 20px}
+}
+
+@media screen and (min-width: 1200px){
+    .new-img, .new-info{display: table-cell}
+    .new-img{width: 300px; padding-right: 15px; vertical-align: top}
+    .new-info{float: right; width: 100%}
+    .new-info > h3{margin-top: 0}
+}

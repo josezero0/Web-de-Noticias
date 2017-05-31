@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Code Bit</title>
+        <link>index.html</link>
+        <description>Noticias del mundo virtual: Hacking, Seguridad y Anonimato</description>
+        <item>
+            <title>KeySniffer, keylogger para linux</title>
+            <link>news1.html</link>
+            <description>
+                <![CDATA[<img src="img/n1-big.jpg" alt="img big" class="img-responsive shadow-green-dark">
+                        <h1>KeySniffer, keylogger para linux<br><small>25 MAYO, 2017, 9:17</small></h1>
+                        <br>
+                        <p>Keysniffer es un Keylogger que funciona perfectamente en Linux. Fue escrito originalmente para teclados US (como el de las laptops).</p>
+                        <p>Captura todas las teclas pulsadas por el usuario de la PC, se pueden ver todos los keycodes en: <mark>/usr/include/linux/input-event-codes.h</mark></p>
+                        <p>Los logs se almacenan en debugfs y solo el root o sudoers pueden ver el log. El módulo permanece camuflajeado en algún módulo del kernel para evitar ser identificado.</p>
+                        <h3>Compilación</h3>
+                        <p>Lo primero que hay que hacer, es clonar el repositorio de github y ejecutar:</p>
+                        <pre class="shadow-green-dark">$ make</pre>
+                        <h3>Uso</h3>
+                        <p>Para insertar el módulo en el kernel, ejecutar:</p>
+                        <pre class="shadow-green-dark">$ sudo insmod kisni.ko</pre>
+                        <p>Para ver las teeclas presionadas ejecutar:</p>
+                        <pre class="shadow-green-dark">$ sudo cat |<br>/sys/kernel/debug/kisni/keys<br>m<br>o<br>d<br>i<br>n<br>f<br>o<br>k<br>i<br>s<br>n<br>i<br>_ENTER_<br>_UP_<br>_TAB_<br>_TAB_<br>k<br>_TAB_<br>_ENTER_<br>_ENTER_</pre>
+                        <p>Para guardar el log en hexadecimal keycodes ejecutar:</p>
+                        <pre class="shadow-green-dark">$ sudo insmod kisni.ko |<br>codes=1<br>// Type something<br>$ sudo cat |<br>/sys/kernel/debug/kisni/keys<br>23 0<br>12 0<br>26 0<br>26 0<br>18 0<br>39 0<br>2a 0<br>2a 1<br>2a 1<br>11 1<br>18 0<br>13 0<br>26 0<br>20 0<br>2a 0<br>2a 1<br>2a 1<br>2 1<br>1c 0<br>1f 0<br>16 0<br>20 0<br>18 0<br>39 0<br>2e 0<br>1e 0<br>14 0<br>6a 0<br>1c 0</pre>
+                        <p>Para guardar el log en decimal ejecutar:</p>
+                        <pre class="shadow-green-dark">$ sudo insmod kisni.ko |<br>codes=2</pre>
+                        <p>Para limpiar el log ejecutar:</p>
+                        <pre class="shadow-green-dark">$ sudo rmmod kisni</pre>
+                        <p>Github: <a href="https://github.com/jarun/keysniffer">https://github.com/jarun/keysniffer</a></p>
+                        <br>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=TPxw0V42p1o"></iframe>
+                        </div>
+                        <br>
+                        <p><b>Fuente original:</b> <a href="https://blog.underc0de.org/keysniffer-keylogger-linux/">blog.underc0de.org</a></p>]]>
+            </description>
+            <pubDate>25 MAYO, 2017, 9:17</pubDate>
+        </item>
+        <item>
+            <title>Kali Linux versión 2017.1</title>
+            <link>news2.html</link>
+            <description>
+                <![CDATA[]]>
+            </description>
+            <pubDate>23 MAYO 2017, 14:44</pubDate>
+        </item>
+        <item>
+            <title>0 Day, reset de contraseñas en wordpress</title>
+            <link>news3.html</link>
+            <description>
+                <![CDATA[]]>
+            </description>
+            <pubDate>21 MAYO 2017, 23:59</pubDate>
+        </item>
+    </channel>
+</rss>
